@@ -6,18 +6,18 @@ import './Contact.scss';
 
 const Contact = () => {
 
-    const [letterClass, setLetterClass] = useState('text-animate')
-    const form = useRef()
-  
-    useEffect(() => {
-       setTimeout(() => {
-        setLetterClass('text-animate-hover')
-      }, 3000)
-    }, [])
-  
-    const sendEmail = (e) => {
+  const [letterClass, setLetterClass] = useState('text-animate')
+  const form = useRef()
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 3000)
+  }, [])
+
+  const sendEmail = (e) => {
     //   e.preventDefault()
-  
+
     //   emailjs
     //     .sendForm(
     //       'gmail',
@@ -34,10 +34,10 @@ const Contact = () => {
     //         alert('Failed to send the message, please try again')
     //       }
     //     )
-    }
+  }
 
-    return (
-        <>
+  return (
+    <>
       <div className="container contact-page">
         <div className="text-zone">
           <h1>
@@ -48,7 +48,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially ambitious or
+            I am interested in great organization with best team play - especially ambitious or
             large projects. However, if you have other request or question,
             don't hesitate to contact me using below form either.
           </p>
@@ -97,9 +97,10 @@ const Contact = () => {
           <span>i.m.farhad999@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
+          <MapContainer center={[22.68, 91.79]} zoom={13}>
+            <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[22.68, 91.79]}>
               <Popup>Farhad lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
@@ -107,7 +108,7 @@ const Contact = () => {
       </div>
       <Loader type="pacman" />
     </>
-    );
+  );
 };
 
 export default Contact;

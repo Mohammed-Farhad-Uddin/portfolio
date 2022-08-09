@@ -61,7 +61,7 @@ const About = () => {
                             <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
                         </div>
                         <div className="face6">
-                            <FontAwesomeIcon icon={faNode} color="#EC4D28" />
+                            <FontAwesomeIcon icon={faNode} color="#68A063" />
                         </div>
                     </div>
                 </div>
