@@ -97,7 +97,7 @@ const Contact = () => {
           <span>i.m.farhad999@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[22.68, 91.79]} zoom={13}>
+          <MapContainer center={[22.68, 91.79]} zoom={9}>
             <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[22.68, 91.79]}>

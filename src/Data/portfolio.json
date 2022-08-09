@@ -1,34 +1,17 @@
 {
     "portfolio": [
         {
-            "cover": "../assets/images/logo1.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "../assets/images/Ecommerce.PNG",
+            "title": "MERN Ecommerce",
+            "description": "React, Express, Mongoose, Redux, JWT, Stripe ",
+            "url": "https://github.com/Mohammed-Farhad-Uddin/MERN-Ecommerce"
         },
         {
-            "cover": "../assets/images/logo-s.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "../assets/images/logo-s.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "../assets/images/logo-s.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "../assets/images/logo-s.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "../assets/images/Tinder.PNG",
+            "title": "Tinder Clone",
+            "description": "React, Firebase",
+            "url": "https://github.com/Mohammed-Farhad-Uddin/tinder-clone-app"
         }
+       
     ]
 }
