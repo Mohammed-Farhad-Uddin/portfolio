@@ -128,3 +128,60 @@
         }
     }
 }
+
+
+@media only screen and (max-width: 775px) {
+    .nav-bar {
+
+        width: 30px;
+
+
+        .logo {
+
+
+            img {
+
+                width: 15px;
+
+            }
+        }
+
+
+        nav {
+
+
+            a {
+                font-size: 11px;
+
+                line-height: 25px;
+                height: 25px;
+
+
+
+
+
+
+                &:after {
+                    content: '';
+                    font-size: 5px;
+                }
+            }
+        }
+
+
+
+        ul {
+
+
+            li {
+                a {
+
+                    font-size: 8px;
+                    line-height: 8px;
+
+                }
+            }
+        }
+    }
+
+}

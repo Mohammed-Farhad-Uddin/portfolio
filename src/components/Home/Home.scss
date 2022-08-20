@@ -70,3 +70,34 @@
         }
     }
 }
+
+
+
+@media only screen and (max-width: 775px) {
+    .home-page {
+        h1 {
+            font-size: 25px;
+            line-height: 28px;
+
+            &:before {
+                content: '<h1>';
+                font-size: 15px;
+            }
+
+            &:after {
+                content: '<h1/>';
+                font-size: 15px;
+            }
+        }
+
+        h2 {
+            font-size: 8px;
+        }
+
+        .flat-button {
+            font-size: 8px;
+            letter-spacing: 2px;
+            padding: 5px 9px;
+        }
+    }
+}

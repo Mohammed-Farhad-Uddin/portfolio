@@ -8,6 +8,7 @@ import { faLinkedin, faGithub, faSkype } from '@fortawesome/free-brands-svg-icon
 
 
 
+
 const Sidebar = () => {
     return (
         <div className="nav-bar">
